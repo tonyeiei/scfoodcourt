@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Homepage | SC Food Court Thammasat</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/touchTouch.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.min.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script>function randomImg(){
+    var randomNumber = Math.floor(Math.random() * 9) + 1;
+    var imgName = "bbig" + randomNumber + ".jpg";
+    document.getElementById("bbig").src= "images" + "/" + bbig ;
+ }
+</script>
+<script>
+ $(document).ready(function(){
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+  $('.gallery .gall_item').touchTouch();
+  
+  
+  }); 
+</script>
+
+</head>
+
+<body class="page1" id="top">
+
+<!--==============================
+              header
+=================================-->
+<header>
+<!--==============================
+            Stuck menu
+=================================-->
+ 
+  <section id="stuck_container">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
+        </h1>  
+          <div class="navigation">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="index.html">Home</a></li>
+               <li><a href="index-1.html">Restaurant</a></li>
+               <li><a href="index-2.html">Menu</a></li>
+               <li><a href="index-3.html">Food review</a></li>
+               <li><a href="index-4.html">Contacts</a></li>
+               <li><div align="right"><div class="box">
+  <div class="container-1">
+      <input type="search" id="search" placeholder="Search food..." />
+      <span class="icon"><i class="fa fa-search"></i></span>
+  </div>
+</div>
+</div></li>
+
+
+
+               
+             </ul>
+            </nav>        
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  
+</header>        
+
+<!--=====================
+          Content
+======================-->
+<section class="content"><div class="ic"></div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_4">
+        <div class="banner">
+		  <div class="gall_block">
+          <img src="images/page1_img1.jpg" alt="">
+          <div class="bann_capt ">
+            <div class="maxheight">
+              <img src="images/icon1.png" alt="">
+              <div class="bann_title">General Food</div>
+              <a href="#">more</a>
+            </div>
+          </div>
+        </div>
+	   </div>
+      </div>
+      <div class="grid_4">
+        <div class="banner">
+		  <div class="gall_block">
+          <div class="bann_capt  bn__1">
+            <div class="maxheight">
+              <img src="images/icon2.png" alt="">
+              <div class="bann_title">Vegan Food</div>
+              <a href="#">more</a>
+            </div>
+          </div>
+          <img src="images/page1_img2.jpg" alt="">
+        </div>
+		</div>
+      </div>
+      <div class="grid_4">
+        <div class="banner ">
+		  <div class="gall_block">
+          <img src="images/page1_img3.jpg" alt="">
+          <div class="bann_capt  bn__2">
+            <div class="maxheight">
+              <br><img src="images/icon3.png" alt="" width="94" height="73"></br>
+              <div class="bann_title">Halal Food</div>
+              <a href="#">more</a>
+            </div>
+          </div>
+		  </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="block1">
+          
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="block1">
+          
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="block1">
+          
+        </div>        
+      </div>
+      <div class="grid_12">
+        <div class="box">
+          <div class="row">
+            <div class="grid_5 preffix_1">
+             
+              <h2>How Many Calories in This Food?</h2>
+              <p>You might curious or maybe you want to know how many calories in this food,Just click this below button its will bring calories table to you.<br>
+              <a href="#" class="btn">click</a>
+              
+            </p></div>
+            <div class="grid_5 preffix_1">
+              <h2>Don't Know What to Eat?</h2>
+              You dont know what to eat? No problem.your problem will solve just try to click this random button its will random food image for you to decide what to eat.<br>
+              <a href="#" class="btn">random</a>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_12">
+        <h2>Recommended Menu</h2>
+      </div>
+      <div class="gallery">
+        <div class="grid_4"><a href="images/big1.jpg" class="gall_item"><img src="images/page1_img4.jpg" alt=""></a><div class="gall_bot">
+            <div class="text1"><a href="#">Som tum</div>
+            Som tum or its also call as papaya pok pok.
+             </div></div>
+        <div class="grid_4"><a href="images/big2.jpg" class="gall_item"><img src="images/page1_img5.jpg" alt=""></a><div class="gall_bot">
+            <div class="text1"><a href="#">Tom yum noodle </div>
+            <p>Noodle with spicy tase soup.</p>
+        </div></div>
+        <div class="grid_4"><a href="images/big3.jpg" class="gall_item"><img src="images/page1_img6.jpg" alt=""></a><div class="gall_bot">
+            <div class="text1"><a href="#">Thai chicken rice </div>
+            <pre data-placeholder="คำแปล" id="tw-target-text" data-fulltext="" dir="ltr"><span lang="en">Chicken rice consists of boiled 
+chicken rice.</span></pre>
+        </div></div>
+      </div>
+      
+      <div class="grid_4">
+        <h2>What’s new</h2>
+        <div class="block2">
+          <time datetime="2014-01-01">11<br>July</time>
+          <div class="extra_wrapper">
+            <div class="text1"><a href="#">Developing </a></div>We are doing our job to develop our best website present to you.
+          </div>
+        </div>
+        <div class="block2">
+          <time datetime="2014-01-01">21<br>July</time>
+          <div class="extra_wrapper">
+            <div class="text1"><a href="#">Luanched! </a></div>
+            We luanched our brand new website for Thammasat University.
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <h2>Opening Time</h2>
+        <ul class="shed">
+          <li><span>Monday - Sunday</span><br>7.00 - 16.00</br></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">  
+        <div class="socials">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          </div>
+        <div class="copyright"><span class="brand">SC Food Court Thammasat University </span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <div>Website designed by <a href="http://se.engr.tu.ac.th/" rel="nofollow">Software Engineer #3 Thammasat</a></div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</footer> 
+</body>
+</html>
+
