@@ -6,9 +6,9 @@
 <meta name = "format-detection" content = "telephone=no" />
 <link rel="icon" href="images/favicon.ico">
 <link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="stylesheet" href="booking/css/booking.css">
 <link rel="stylesheet" href="css/stuck.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/touchTouch.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.min.js"></script>
 <script src="js/script.js"></script> 
@@ -18,14 +18,14 @@
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/tmStickUp.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
-    <script src="booking/js/booking.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
 
 <script>
  $(document).ready(function(){
 
   $().UItoTop({ easingType: 'easeOutQuart' });
   $('#stuck_container').tmStickUp({});
-
+  $('.gallery .gall_item').touchTouch();
   }); 
 </script>
 <!--[if lt IE 9]>
@@ -59,6 +59,7 @@
           </a>
         </h1>  
           <div class="navigation ">
+          <div align="right"><a href="#"><img src="images/us.png" alt=""></a> | <a href="#"><img src="images/th.png"></a></div>
             <nav>
               <ul class="sf-menu">
                <li><a href="index.html">Home</a></li>
