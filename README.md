@@ -1,2 +1,4 @@
-# scfoodcourt
-SC food court for Thammasat University SF210 project
+# SC Food Court Thammasat University
+SF210 project
+
+Made by Software engineering #3
