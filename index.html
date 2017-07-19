@@ -19,12 +19,6 @@
 <script src="js/tmStickUp.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/touchTouch.jquery.js"></script>
-<script>function randomImg(){
-    var randomNumber = Math.floor(Math.random() * 9) + 1;
-    var imgName = "bbig" + randomNumber + ".jpg";
-    document.getElementById("bbig").src= "images" + "/" + bbig ;
- }
-</script>
 <script>
  $(document).ready(function(){
 
@@ -58,7 +52,7 @@
           </a>
         </h1>  
           <div class="navigation">
-          <div align="right"><a href="#"><img src="images/us.png" alt=""></a> | <a href="#"><img src="images/th.png"></a></div>
+          <div align="right"><a href="#"><img src="images/us.png" alt=""></a> | <a href="indexth.html"><img src="images/th.png"></a></div>
             <nav>
               <ul class="sf-menu">
                <li class="current"><a href="index.html">Home</a></li>
@@ -158,14 +152,24 @@
             <div class="grid_5 preffix_1">
              
               <h2>How Many Calories in This Food?</h2>
-              <p>You might curious or maybe you want to know how many calories in this food , Just click this button below its will bring calories table to you.<br>
-              <a href="https://www.fatnever.com/calories/" class="btn">click</a>
+              <p>You might curious or maybe you want to know how many calories in this food , Just click this button below its will bring calories table to you.</p><br>
+              <a href="https://www.fatnever.com/calories/" class="btn">Click</a>
               
             </p></div>
             <div class="grid_5 preffix_1">
               <h2>Don't Know What to Eat?</h2>
-              You dont know what to eat? No problem.your problem will solve just try to click this random button its will random food image for you to decide what to eat.<br>
-              <a href="#" class="btn">random</a>
+              <p>You dont know what to eat? No problem.your problem will solve just try to click this random button its will random food image for you to decide what to eat.</p>
+              <p><br>
+              </p>
+              <button onClick="randomImg()" class="btn">Random</button>
+              <img id="imageid" src="">
+              <script language="JavaScript">function randomImg(){
+    var randomNumber = Math.floor(Math.random() * 12) + 1;
+    var imgName = "random_" + randomNumber + ".jpg";
+    document.getElementById("imageid").src= "images" + "/" + imgName ;
+ }
+</script>
+
               
               
             </div>
@@ -232,9 +236,9 @@ we are used to. chicken rice.</p></span></pre>
     <div class="row">
       <div class="grid_12">  
         <div class="socials">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-instagram"></a>
+          <a href="https://www.facebook.com/Scfoodcourt-1747537782210262/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/scfoodcourt" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/scfoodcourt/" class="fa fa-instagram"></a>
           </div>
         <div class="copyright"><span class="brand">SC Food Court Thammasat University </span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <div>Website designed by <a href="http://se.engr.tu.ac.th/" rel="nofollow">Software Engineer #3 Thammasat</a></div>
         </div>
