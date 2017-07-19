@@ -52,7 +52,7 @@
           </a>
         </h1>  
           <div class="navigation">
-          <div align="right"><a href="#"><img src="images/us.png" alt=""></a> | <a href="indexth.html"><img src="images/th.png"></a></div>
+          <div align="right"><a href="index.html"><img src="images/us.png" alt=""></a> | <a href="indexth.html"><img src="images/th.png"></a></div>
             <nav>
               <ul class="sf-menu">
                <li class="current"><a href="index.html">Home</a></li>
@@ -159,13 +159,13 @@
             <div class="grid_5 preffix_1">
               <h2>Don't Know What to Eat?</h2>
               <p>You dont know what to eat? No problem.your problem will solve just try to click this random button its will random food image for you to decide what to eat.</p>
-              <p><br>
-              </p>
+              <br>
+              
               <button onClick="randomImg()" class="btn">Random</button>
               <img id="imageid" src="">
               <script language="JavaScript">function randomImg(){
     var randomNumber = Math.floor(Math.random() * 12) + 1;
-    var imgName = "random_" + randomNumber + ".jpg";
+    var imgName = "Random_" + randomNumber + ".jpg";
     document.getElementById("imageid").src= "images" + "/" + imgName ;
  }
 </script>
