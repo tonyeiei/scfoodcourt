@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>เมนู | SC Food Court Thammasat</title>
+<title>ร้าน มรดกข้าวแกง | ศูนย์อาหาร SC มหาวิทยาลัยธรรมศาสตร์</title>
 <meta charset="utf-8">
 <meta name = "format-detection" content = "telephone=no" />
 <link rel="icon" href="images/favicon.ico">
 <link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="stylesheet" href="booking/css/booking.css">
 <link rel="stylesheet" href="css/stuck.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/touchTouch.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.min.js"></script>
 <script src="js/script.js"></script> 
@@ -18,13 +18,14 @@
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/tmStickUp.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
-    <script src="booking/js/booking.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
 
 <script>
  $(document).ready(function(){
 
   $().UItoTop({ easingType: 'easeOutQuart' });
   $('#stuck_container').tmStickUp({});
+  $('.gallery .gall_item').touchTouch();
 
   }); 
 </script>
@@ -59,12 +60,12 @@
           </a>
         </h1>  
           <div class="navigation ">
-          <div align="right"><a href="halalf.html"><img src="images/us.png" alt=""></a> | <a href="halalfth.html"><img src="images/th.png"></a></div>
+          <div align="right"><a href="kawgang.html"><img src="images/us.png" alt=""></a> | <a href="kawgangth"><img src="images/th.png"></a></div>
             <nav>
               <ul class="sf-menu">
-                <li><a href="indexth.html">หน้าหลัก</a></li>
-               <li><a href="index-1th.html">ร้านอาหาร</a></li>
-               <li class="current"><a href="index-2th.html">เมนู</a></li>
+               <li><a href="indexth.html">หน้าหลัก</a></li>
+               <li class="current"><a href="index-1th.html">ร้านอาหาร</a></li>
+               <li><a href="index-2th.html">เมนู</a></li>
                <li><a href="index-3th.html">รีวิวอาหาร</a></li>
                <li><a href="index-4th.html">ติดต่อ</a></li><li><div align="right"><div class="box">
   <div class="container-1">
@@ -90,18 +91,6 @@
   <div class="container">
     <div class="row">
       <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="images/biryini.jpg" class="gall_item"><img src="images/small_biryini.jpg" alt=""></a>
-            <div class="gall_bot">
-            <div class="text1">ข้าวหมกไก่</div>
-a South Asian mixed rice dish with its origins among the Muslims of the Indian subcontinent. It is popular throughout the subcontinent and among the diaspora from the region. It is generally made with spices, rice, and meat. 
-            <br>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div class="grid_4">
         <div class="gall_block">
           <div class="maxheight">
             <a href="images/kawgang1.jpg" class="gall_item"><img src="images/small_kawgang1.jpg" alt=""></a>
@@ -164,6 +153,7 @@ a South Asian mixed rice dish with its origins among the Muslims of the Indian s
         </div>
       </div>
       
+      </div>
     </div>
   </div>
 </section>
@@ -188,3 +178,4 @@ a South Asian mixed rice dish with its origins among the Muslims of the Indian s
 </footer> 
 </body>
 </html>
+
